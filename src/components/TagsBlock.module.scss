@@ -1,0 +1,17 @@
+.tag {
+  background-color: rgb(31, 41, 55);
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.tag:hover {
+  background-color: #4361ee;
+  color: #fff;
+}

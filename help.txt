@@ -1,0 +1,50 @@
+npm run start:dev
+npm start
+yarn start
+
+.connect('mongodb+srv://yevheniiedu:1111@cluster0.z1qapr6.mongodb.net/blog?retryWrites=true&w=majority&appName=Cluster0')
+
+https://www.washingtonpost.com/politics/how-sanders-caught-fire-in-iowa-and-turned-the-clinton-coronation-into-a-real-race/2016/02/02/83b08d22-c79a-11e5-8965-0607e0e265ce_story.html
+{
+  "title": "Мій пост",
+  "text": "Це текст мого посту",
+  "tags": ["react", "node", "mongoose"]
+}
+
+{
+	"email": "admin@example.com",
+	"password": "admin",
+	"fullName": "admin"
+}
+
+{
+	"email": "admin@example.com",
+	"password": "admin"
+}
+
+          <CommentsBlock
+            items={[
+              {
+                user: {
+                  fullName: <span style={{ color: '#fff' }}>Vladislav</span>,
+                  avatarUrl: 'https://mui.com/static/images/avatar/5.jpg',
+                },
+                text: <span style={{ color: '#fff' }}>This is a test comment.</span>,
+              },
+              {
+                user: {
+                  fullName: <span style={{ color: '#fff' }}>Miroslav</span>,
+                  avatarUrl: 'https://mui.com/static/images/avatar/2.jpg',
+                },
+                text: (
+                  <span style={{ color: '#fff' }}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </span>
+                ),
+              },
+            ]}
+            isLoading={false}
+            style={{ width: '100%' }}
+          />
+
+          import { CommentsBlock } from '../components/CommentsBlock';
